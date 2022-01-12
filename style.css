@@ -50,10 +50,6 @@ a {
     color: white;
 }
 
-I {
-    transition: 200ms linear;
-}
-
 /* ---------------------------------------------------------------------------------------------------- */
 
 /* HEADER */
@@ -230,14 +226,18 @@ main {
 
 /* ---------------------------------------------------------------------------------------------------- */
 
- /* FOOTER */
+/* FOOTER */
 
- .navbar-flex {
+.navbar-flex {
     width: 100vw;
     height: 60px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.navbar-flex i {
+    transition: 200ms linear;
 }
 
 .audio_video-flex {
@@ -261,39 +261,65 @@ li:first-child {
     gap: 20px;
 }
 
-#darkgrey:hover {
+.audio:hover #darkgrey {
     color: darkslategray;
 }
 
-#lightgreen:hover {
-    color: greenyellow;
+.video:hover #darkgrey {
+    color: darkslategray;
 }
 
-#violet:hover {
-    color: blueviolet;
+.invite:hover #yellowgreen {
+    color: yellowgreen;
 }
 
-#blue:hover {
+.manage:hover #pink {
+    color: deeppink;
+}
+
+.polling:hover #blue {
     color: blue;
 }
 
-#darkgreen:hover {
+.share:hover #darkgreen {
     color: darkgreen;
 }
 
-#cyan:hover {
-    color: cyan;
+.chat:hover #skyblue {
+    color: deepskyblue;
 }
 
-#red:hover {
+.record:hover #red {
     color: red;
 }
 
-#orange:hover {
+.breakout:hover #orange {
     color: orangered;
 }
 
-/* to be continued... */
+.more:hover #darkgrey {
+    color: darkslategray;
+}
+
+.end-meeting {
+    height: 60px;
+    padding: 0 20px;
+    display: flex;
+    align-items: center;    
+    transition: 200ms linear;
+}
+
+.end-meeting:hover {
+    background: #4A4A4A;
+}
+
+.em_action {
+    transition: 200ms linear;
+}
+
+.end-meeting:hover .em_action {
+    color: red;
+}
 
 /* ---------------------------------------------------------------------------------------------------- */
 
