@@ -1,0 +1,29 @@
+/* RESET CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    scroll-behavior: smooth;
+    color: white;
+}
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* PRESET CONTENITORI */
+
+/* header, main {
+    background: black;
+} */
+
+/* footer {
+    background: #222222;
+} */
+
+/* ---------------------------------------------------------------------------------------------------- */
+
+/* to be continued... */
